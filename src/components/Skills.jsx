@@ -4,6 +4,8 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
+  FaJava,
+  FaCsharp,
   FaReact,
   FaGithub,
   FaPython,
@@ -14,6 +16,12 @@ import {
   SiNextdotjs,
   SiFigma,
   SiFlutter,
+  SiBootstrap,
+  SiCplusplus,
+  SiPhp,
+  SiCsharp,
+  SiMysql,
+  SiFirebase,
 } from "react-icons/si";
 
 const skills = [
@@ -25,52 +33,65 @@ const skills = [
   {
     name: "CSS",
     icon: <FaCss3Alt className="text-4xl text-blue-600" />,
-    rating: 85,
+    rating: 80,
   },
   {
     name: "JavaScript",
     icon: <FaJs className="text-4xl text-yellow-400" />,
-    rating: 90,
+    rating: 60,
   },
   {
     name: "React JS",
     icon: <FaReact className="text-4xl text-blue-500" />,
+    rating: 50,
+  },
+
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="text-4xl text-teal-400" />,
+    rating: 50,
+  },
+
+  {
+    name: "Bootstrap",
+    icon: <SiBootstrap className="text-4xl text-purple-600" />,
+    rating: 60,
+  },
+  {
+    name: "Java",
+    icon: <FaJava className="text-4xl text-red-600" />,
     rating: 85,
+  },
+  {
+    name: "C++",
+    icon: <SiCplusplus className="text-4xl text-blue-600" />,
+    rating: 65,
+  },
+  {
+    name: "PHP",
+    icon: <SiPhp className="text-4xl text-purple-600" />,
+    rating: 60,
+  },
+
+  {
+    name: "MySQL",
+    icon: <SiMysql className="text-4xl text-blue-600" />,
+    rating: 60,
+  },
+  {
+    name: "Firebase",
+    icon: <SiFirebase className="text-4xl text-orange-600" />,
+    rating: 50,
   },
   {
     name: "GitHub",
     icon: <FaGithub className="text-4xl text-black" />,
-    rating: 80,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss className="text-4xl text-teal-400" />,
-    rating: 90,
-  },
-  {
-    name: "MongoDB",
-    icon: <SiMongodb className="text-4xl text-green-600" />,
-    rating: 70,
-  },
-  {
-    name: "Next JS",
-    icon: <SiNextdotjs className="text-4xl text-black" />,
-    rating: 80,
+    rating: 60,
   },
   {
     name: "Figma",
     icon: <SiFigma className="text-4xl text-blue-600" />,
-    rating: 75,
-  },
-  {
-    name: "Flutter",
-    icon: <SiFlutter className="text-4xl text-blue-400" />,
-    rating: 70,
-  },
-  {
-    name: "Python",
-    icon: <FaPython className="text-4xl text-blue-500" />,
-    rating: 80,
+    rating: 40,
   },
 ];
 

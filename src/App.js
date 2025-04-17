@@ -6,6 +6,9 @@ import About from "./components/About";
 import Service from "./components/Services";
 import Skill from "./components/Skills";
 import Project from "./components/Projects";
+import Contact from "./components/Contact";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
       <Service />
       <Skill />
       <Project />
+      <Contact />
     </div>
   );
 }
