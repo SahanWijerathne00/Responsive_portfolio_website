@@ -23,7 +23,7 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17"
   },
-  "homepage": "https://sahanwijerathne00.github.io/my_portfolio/",
+  "homepage": "https://sahanwijerathne00.github.io/my_portfolio/App.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
