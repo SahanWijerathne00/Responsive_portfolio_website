@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import profile from "../images/profile.jpg";
-import { FaFacebookF, FaWhatsapp, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Hero = () => {
   const [text, setText] = useState("Front-end Developer");

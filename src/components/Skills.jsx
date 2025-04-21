@@ -5,21 +5,15 @@ import {
   FaCss3Alt,
   FaJs,
   FaJava,
-  FaCsharp,
   FaReact,
   FaGithub,
-  FaPython,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
-  SiMongodb,
-  SiNextdotjs,
   SiFigma,
-  SiFlutter,
   SiBootstrap,
   SiCplusplus,
   SiPhp,
-  SiCsharp,
   SiMysql,
   SiFirebase,
 } from "react-icons/si";
