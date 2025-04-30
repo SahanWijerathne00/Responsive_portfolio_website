@@ -20,9 +20,7 @@ const About = () => {
         {/* Description and Other Elements */}
         <div className="md:w-2/3 text-center md:text-left space-y-6">
           <h1 className="text-4xl sm:text-5xl font-bold">About Me</h1>
-          <h2 className="text-2xl sm:text-3xl font-semibold mt-2">
-            Full Stack Developer!
-          </h2>
+
           <p className="text-lg sm:text-xl mt-4 max-w-xl mx-auto md:mx-0">
             I am an undergraduate student currently in my final year of study.
             Throughout my academic journey, I have gained valuable knowledge in

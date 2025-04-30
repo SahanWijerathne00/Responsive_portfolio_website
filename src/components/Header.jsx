@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
-import Logo from "../images/logo.webp"; // Correct import syntax for an image file
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,9 +24,9 @@ const Header = () => {
       } bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-6 shadow-xl transition-all duration-500 ease-in-out hover:shadow-2xl w-full fixed top-0 left-0 z-50`}
     >
       <nav className="max-w-screen-full mx-auto flex justify-between items-center px-8">
-        {/* Logo or Title */}
+        {/* Logo */}
         <img
-          src={Logo} // Now Logo is correctly imported as a default export
+          src=""
           alt="Portfolio Logo"
           className="w-32 h-auto hover:scale-110 transition-all duration-300"
         />

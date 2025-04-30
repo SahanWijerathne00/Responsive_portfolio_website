@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import profile from "../images/profile.jpg";
 
 const Hero = () => {
   const [text, setText] = useState("Front-end Developer");
@@ -34,7 +33,7 @@ const Hero = () => {
         {/* Profile Image with Glow Effect */}
         <div className="relative mb-8 md:mb-0 md:w-1/3 flex justify-center">
           <img
-            src={profile}
+            src={"https://via.placeholder.com/150"} // Replace with your profile image URL
             alt="Profile"
             className="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover border-4 border-white shadow-lg"
           />
